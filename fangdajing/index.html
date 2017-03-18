@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>放大镜</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#min_wrap{
+		position: absolute;
+		width: 350px;
+	/*	height: 350px;*/
+		border: 1px solid #ccc;
+	}
+	#max_wrap{
+		position: absolute;
+		left: 370px;
+		width: 400px;
+		height: 500px;
+		border: 1px solid #ccc;
+		overflow: hidden;
+		display: none;
+	}
+	#max_wrap img{
+		position: absolute;
+	}
+	#slider{
+		position: absolute;
+        top: 0;
+        left: 0;
+        width: 175px;
+        height: 175px;
+        background: rgba(255,255,0,0.2);
+        cursor: pointer;
+        display: none;
+	}
+	</style>
+</head>
+<body>
+	<!-- 需求分析
+	  1.两张图片，小图大图
+	  2.为小图添加移动事件
+	     2.1滑块显示/大图显示
+	     2.2 鼠标移动到哪里，滑块就到哪里
+	     2.3拿到滑动块在小图比例值
+	  3.改变大图的移动坐标点-->
+	  <div id="min_wrap">
+	  	<img src="1.jpg" alt="">
+	  	<div id="slider"></div>
+	  </div>
+	  <div id="max_wrap">
+	  	<img src="2.jpg" alt="">
+	  </div>
+	  <script>
+	  	function magnifier() {
+	  		// 获取元素对象
+	  		var minWrap = document.querySelector("#min_wrap");
+	  		var maxWrap = document.querySelector("#max_wrap");
+	  		var slider = document.querySelector("#slider");
+	  		var maxImg = maxWrap.children[0];
+	  		minWrap.onmousemove =function (event){
+	  			var event = event|| window.event;
+	  			// 显示滑块和大图
+	  			slider.style.display = "block";
+	  			maxWrap.style.display = "block";
+	  			// 获取鼠标坐标
+	  			var disX = event.clientX - minWrap.offsetLeft;
+	  			var disY = event.clientY - minWrap.offsetTop;
+	  			// 获取滑块的中心对准鼠标坐标
+	  			var x = disX - slider.offsetWidth/2;
+	  			var y = disY - slider.offsetHeight/2;
+	  			// 设定移动滑块移动范围
+	  			var maxWidth  = minWrap.clientWidth - slider.offsetWidth;
+	  			var maxHeight  = minWrap.clientHeight - slider.offsetHeight;
+	  			if (x >= maxWidth) {
+	  				x = maxWidth;
+	  			}else if(x<=0){
+	  				x = 0;
+	  			}
+	  			if (y>=maxHeight) {
+	  				y = maxHeight;
+	  			}else if(y<=0){
+	  				y =0 ;
+	  			}
+	  			// console.log("wsj" + x);
+                slider.style.left = x + "px";
+                slider.style.top = y + 
+                "px";
+                // 移动滑块位置相对于小图可移动比例
+                var scaleX = x / maxWidth;
+                var scaleY = y / maxHeight;
+               // 改变大图移动坐标点
+	  		   maxWrap.scrollLeft = scaleX *(maxImg.offsetWidth-maxWrap.clientWidth);
+	  		   maxWrap.scrollTop = scaleY *(maxImg.offsetHeight-maxWrap.clientHeight);
+
+	  		}
+	  		// 鼠标移出移出是，大图滑块消失
+            minWrap.onmouseleave = function (){
+                slider.style.display ="none";
+	  			maxWrap.style.display ="none";
+            }
+            
+	  	}
+	  	magnifier();
+	  </script>
+</body>
+</html>
