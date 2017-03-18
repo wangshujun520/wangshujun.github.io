@@ -1,0 +1,17 @@
+
+.word{
+    height:600px;
+    background: rgba(255,255,255,0.3);
+    text-align: left;
+    padding: 40px;
+    box-sizing: content-box;
+    color: #fff;
+	overflow: auto;
+}
+.tel li{
+	line-height: 26px;
+    text-indent: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+

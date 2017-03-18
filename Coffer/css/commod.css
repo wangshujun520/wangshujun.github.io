@@ -1,0 +1,25 @@
+body{
+    background: url("../img/news/sec_01.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    opacity: 0.7;
+}
+.bread,.bread a{
+    color: #fff;
+    text-align: right;
+    line-height: 54px;
+}
+.bread span{
+    color: #fff;
+}
+.nav_list{
+    text-align: center;
+}
+.nav_list a{
+    font-size: 25px;
+}
+.show{
+    width:90%;
+    padding:160px 5% 0;
+}
+
+/************/

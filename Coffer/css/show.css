@@ -1,0 +1,70 @@
+
+.b4-data{
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin: 1%;
+    border:4px double #fff;
+    filter: grayscale(1)
+}
+.b4-list .f1{
+    background: url("../img/b4-1.jpg") center no-repeat ;
+}
+.b4-list .f2{
+    background: url("../img/b4-2.jpg") center no-repeat ;
+}
+.b4-list .f3{
+    background: url("../img/b4-3.jpg") center no-repeat ;
+
+}
+.b4-list .f4{
+    background: url("../img/b4-4.jpg") center no-repeat ;
+}
+.b4-list .f5{
+    background: url("../img/b4-5.jpg") center no-repeat ;
+}
+.b4-list .f6{
+    background: url("../img/b4-6.jpg") center no-repeat ;
+}
+.b4-data .f1box{
+    width: 65%;
+    height: 130px;
+    background: rgba(0,0,0,0.5);
+    margin: 105px auto;
+    border:2px solid #333;
+    display: none;
+}
+.b4-data .box-s{
+    width:65%;
+    height: 70px;
+    border-top:2px solid #ffffff;
+    border-bottom: 2px solid #FFFFFF;
+    margin: 15px auto;
+    text-align: center;
+    line-height:35px;
+}
+.b4-data .icon{
+    width:25px;
+    height:25px;
+    margin: 0 auto;
+    position: relative;
+    top: -7px;
+}
+.b4-data .icon img{
+    position: static;
+}
+.b4-data:hover{
+    animation:f1 1s forwards;
+}
+.b4-data:hover .f1box{
+    animation:icon 1s forwards;
+    display: block;
+}
+@-webkit-keyframes f1 {
+    from{filter: grayscale(1);}
+    to{filter: grayscale(0);}
+}
+@-webkit-keyframes icon {
+    from{opacity:0}
+    to{opacity: 0.8;}
+}

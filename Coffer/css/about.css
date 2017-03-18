@@ -1,0 +1,16 @@
+
+.word{
+    height:600px;
+    background: rgba(255,255,255,0.3);
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+    box-sizing: content-box;
+    color: #fff;
+	overflow: auto;
+}
+p{
+	line-height: 26px;
+    text-indent: 30px;
+}
+
