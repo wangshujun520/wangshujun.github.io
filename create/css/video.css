@@ -1,0 +1,50 @@
+
+
+body{
+    background: #FFF;
+}
+#fillTop{
+    height: 84px;
+}
+#videoContent{
+    padding-top: 60px;
+    text-align: center;
+    background: #f6f6f6;
+}
+#videoContent .actives{
+    padding-bottom: 76px;
+}
+#videoContent .actives .active{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    border: 2px solid #000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+#videoContent .actives .blank{
+    height: 15px;
+}
+#videoContent .actives .active video{
+    width: 60%;
+}
+#videoContent .lineP{
+    margin: 0 auto;
+    text-align: center;
+}
+#videoContent .lineP .lineSpan{
+    position: relative;
+    display: block;
+}
+#videoContent .lineP .lineSpan:before,#videoContent .lineSpan:after {
+    content: '';                 /*CSS伪类用法*/
+    position: absolute;         /*定位背景横线的位置*/
+    top: 52%;
+    background: #000;       /*宽和高做出来的背景横线*/
+    transition: 0.5s;
+    height: 1px;
+}
+#videoContent .lineP .lineSpan img{
+    width: 18px;
+}

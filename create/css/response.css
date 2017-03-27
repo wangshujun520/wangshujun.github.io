@@ -1,0 +1,349 @@
+@media only screen and (min-width: 1000px)  {
+    #myContent #selectBtn #selectContent li{
+        width: 25%;
+    }
+    #joinContent #position #map, #joinContent #position #ourCont{
+        width: 45%;
+        margin:0 2.5%;
+        float: left;
+        height: 240px;
+    }
+    #joinContent #MoreInfo{
+        width: 70%;
+        margin-left: 15%;
+    }
+    #joinContent #MoreInfo #recruit li .recruitImg{
+        width: 30%;
+        float: left;
+    }
+
+    #joinContent #MoreInfo #recruit li .recruitTxt{
+        width: 65%;
+        float: left;
+    }
+    #joinContent #MoreInfo #recruit li .recruitImg img{
+        display: block;
+    }
+    #ourContent .ours{
+        width: 10%;
+        height: 1000px;
+    }
+    #aTop{
+        display: none;
+    }
+    nav img{
+        margin-left: 30%;
+        margin-top: 14px;
+        width: 52px;
+    }
+
+    nav .navBtn{
+        width: 50%;
+    }
+    nav .navBtn li{
+        margin:0 20px;
+    }
+
+    #departmentContent img{
+        width: 100%;
+    }
+    #consultContent #newsInfo .newsImg{
+        height: 230px;
+        overflow: hidden;
+    }
+    #worksContent #worksSelect #worksSelectTxts .worksSelectTxt .worksSelectImgs{
+        height: 260px;
+    }
+    #consultContent #newsInfo{
+        width: 60%;
+    }
+    #consultContent #newsInfo li{
+        width: 45%;
+        padding-bottom: 20px;
+        margin: 20px 2.5%;
+        float: left;
+    }
+    #worksContent #worksSelect #worksSelectTxts .worksSelectTxt{
+        width: 31%;
+        margin: 0 1%;
+    }
+    #worksContent #worksSelect #worksSelectBtn{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #worksContent #worksSelect #worksSelectBtn li{
+        display: inline-block;
+        width: 80px;
+        height: 50px;
+        margin: 0 10px;
+        font-size: 16px;
+        line-height: 50px;
+    }
+    #myContent #CEO #CEOImg{
+        width: 315px;
+        float: left;
+    }
+    #myContent #CEO #CEOImg img{
+        width: 100%;
+    }
+    #myContent #CEO #CEOText{
+        padding: 3%;
+        width: 53%;
+        float: left;
+    }
+    #videoContent .lineP{
+        width: 1000px;
+    }
+    footer .lineP{
+        width: 1000px;
+    }
+    #myContent .sp {
+        width: 1000px;
+
+    }
+    #myContent #department #design{
+        width: 1200px;
+    }
+    footer .method{
+        width: 80%;
+        margin: 0 auto;
+        height: 30px;
+        padding-top: 10px;
+    }
+    footer .method .email{
+        width: 22%;
+    }
+    .lineSpan:before{
+        left: 10.5%;
+    }
+    .lineSpan:after{
+        right: 10.5%;
+    }
+    .lineSpan:before, .lineSpan:after{
+        width: 376px;
+    }
+
+    #myContent .sp .lineSpan:before{
+        left: 10.5%;
+    }
+    #myContent .sp .lineSpan:after{
+        right: 10.5%;
+    }
+    #myContent .sp .lineSpan:before, .lineSpan:after{
+
+        width: 376px;
+    }
+    #worksContent .sp .lineSpan:before{
+        left: 10.5%;
+    }
+    #worksContent .sp .lineSpan:after{
+        right: 10.5%;
+    }
+    #worksContent .sp .lineSpan:before, .lineSpan:after{
+
+        width: 376px;
+    }
+    #worksContent .sp {
+        width: 1000px;
+
+    }
+    #myContent #serviceInfo .serviceList li{
+        width: 32%;
+    }
+    #myContent #serviceInfo{
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #myContent #selectBtn #selectContent li{
+        width: 25%;
+    }
+    #joinContent #position #map{
+        height: 140px;
+    }
+    #joinContent #position #map, #joinContent #position #ourCont{
+        width:100%;
+        margin:20px 0;
+
+
+    }
+    #joinContent #position #ourCont{
+        box-sizing: inherit;
+    }
+    #joinContent #MoreInfo{
+        width: 85%;
+        margin-left: 8%;
+    }
+    #joinContent #MoreInfo #recruit li .recruitTxt{
+        width: 100%;
+    }
+    #joinContent #MoreInfo #recruit li .recruitImg img{
+        display: none;
+    }
+    #aTop{
+        display: block;
+    }
+    #ourContent .ours{
+        height: 300px;
+        width: 33%;
+    }
+    nav img{
+        margin-left: 0;
+        margin-top: 30px;
+        width: 5%;
+    }
+
+    nav .navBtn{
+        width: 93%;
+    }
+    nav .navBtn li{
+        width: 14%;
+        margin: 0;
+    }
+
+    #departmentContent img{
+        width: 1000px;
+    }
+    #consultContent #newsInfo li{
+        width: 100%;
+        padding-bottom: 20px;
+        margin: 20px 2.5%;
+    }
+    /*#worksContent #worksSelect #worksSelectBtn{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #worksContent #worksSelect #worksSelectBtn li{
+        display: inline-block;
+        width: 80px;
+        height: 50px;
+        margin: 0 10px;
+        font-size: 16px;
+        line-height: 50px;
+    }*/
+    #worksContent #worksSelect #worksSelectTxts .worksSelectTxt{
+        width: 31%;
+        margin: 0 1%;
+    }
+    #myContent #CEO #CEOImg{
+        width: 100%;
+
+    }
+    #myContent #CEO #CEOImg img{
+        width: 100%;
+    }
+    #myContent #CEO #CEOText{
+        padding: 3%;
+        width: 100%;
+    }
+    #myContent #CEO #CEOText{
+        width: 80%;
+    }
+    #myContent #serviceInfo .serviceList li{
+        width: 33%;
+    }
+    #myContent #serviceInfo{
+        width: 1200px;
+    }
+    footer .lineP{
+        width: 100%;
+    }
+    #myContent .sp {
+        width: 100%;
+
+    }
+    .lineSpan:before{
+        left: 0;
+    }
+    footer .method{
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+    footer .method .email{
+        line-height: 30px;
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .lineSpan:after{
+        right: 0;
+    }
+    .lineSpan:before, .lineSpan:after{
+
+        width: 47%;
+    }
+
+    #myContent .sp .lineSpan:after{
+        right: 0;
+    }
+    #myContent .sp .lineSpan:before, .lineSpan:after{
+
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    #departmentContent img{
+
+    }
+    #worksContent #worksSelect #worksSelectTxts .worksSelectTxt .worksSelectImgs{
+        height: 90px;
+    }
+    #consultContent #newsInfo{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #worksContent #worksSelect #worksSelectBtn{
+        width: 100%;
+    }
+    #worksContent #worksSelect #worksSelectBtn li{
+        width: 12%;
+        margin: 0 1%;
+        height: 30px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    #worksContent #worksSelect #worksSelectTxts .worksSelectTxt{
+        width: 45%;
+        margin: 0 2.5%;
+    }
+
+    #myContent #fill{
+        display: none;
+    }
+    #myContent #department #design{
+        width: 100%;
+    }
+    #myContent #serviceInfo{
+        width: 100%;
+    }
+    #myContent #serviceInfo .serviceList li{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    #myContent #selectBtn #selectContent li{
+
+        width: 50%;
+
+    }
+
+    #joinContent #MoreInfo #recruit li .recruitImg{
+        width: 100%;
+
+    }
+
+    #joinContent #MoreInfo #recruit li .recruitTxt{
+        width: 100%;
+
+    }
+    #joinContent #MoreInfo #recruit li .recruitImg img{
+        display: block;
+    }
+
+}

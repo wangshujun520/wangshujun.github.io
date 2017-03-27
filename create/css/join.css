@@ -1,0 +1,145 @@
+
+
+body{
+    background: #fff;
+}
+
+
+#joinContent .topImg img{
+    width: 100%;
+}
+#joinContent #MoreInfo{
+    padding-top: 10px;
+
+}
+#joinContent #MoreInfo .more{
+    cursor: pointer;
+    margin: 0 auto;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 5px;
+}
+#joinContent #MoreInfo #recruit{
+    padding-bottom: 40px;
+    padding-top: 75px;
+}
+#joinContent #MoreInfo #recruit li{
+    padding-bottom: 50px;
+    color: #979797;
+    overflow: hidden;
+}
+
+#joinContent #MoreInfo #recruit li div{
+    float: left;
+}
+#joinContent #MoreInfo #recruit li .recruitImg{
+    text-align: center;
+}
+#joinContent #MoreInfo #recruit li .recruitImg img{
+    width: 80%;
+}
+#joinContent #MoreInfo #recruit li .recruitTxt{
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+#joinContent #MoreInfo #recruit li .recruitTxt h2{
+    color: #000;
+    font-size: 50px;
+    padding: 10px 0;
+}
+#joinContent #MoreInfo #recruit li .recruitTxt .bewrite{
+    color: #000;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#joinContent #MoreInfo #recruit li .recruitTxt .bewriteInfo{
+    line-height: 23px;
+}
+
+#joinContent #MoreInfo #recruit li .recruitTxt .needs{
+    padding: 20px 0;
+}
+#joinContent #MoreInfo #recruit li .recruitTxt .needs .add{
+    display: inline-block;
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+    padding: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+#joinContent #MoreInfo #recruit li .recruitTxt .needsInfo{
+    display: none;
+    line-height: 24px;
+}
+
+
+#joinContent #position{
+    padding-bottom: 50px;
+    width: 70%;
+    overflow: hidden;
+    margin-left: 15%;
+}
+
+#joinContent #position #map{
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+#joinContent #position #map img{
+    width: 100%;
+    height: 100%;
+}
+#joinContent #position #map p{
+    cursor: cell;
+    border: 1px #000 solid;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+#joinContent #position #map #MapTxt{
+    color: #fff;
+    background:red ;
+    cursor: pointer;
+}
+#joinContent #position #map #Map1Txt{
+    background: #fff;
+    top: 30px;
+    cursor: pointer;
+}
+#joinContent #position #ourCont{
+    box-sizing: border-box;
+    background: red;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.9;
+
+}
+#joinContent #position #ourCont .en{
+    margin-left: 15px;
+}
+#joinContent #position #ourCont .ch{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 70%;
+    padding-bottom: 10px;
+    border-bottom: 2px #000 solid;
+}
+#joinContent #position #ourCont .contInfo{
+    padding-bottom: 30px;
+    margin-left: 15px;
+    padding-top: 10px;
+    line-height: 24px;
+}

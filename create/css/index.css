@@ -1,0 +1,244 @@
+
+
+#banner{
+    position: relative;
+    z-index: 5;
+    background: #fff;
+}
+#banner #content_banner ol li{
+    width: 100%;
+}
+#banner #content_banner ol .one{
+    position: absolute;
+    z-index: 1;
+}
+#banner #content_banner ol .two{
+    position: absolute;
+    z-index: 0;
+}
+#banner #content_banner ol li img{
+    width: 100%;
+}
+#canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#banner #bannerBtn{
+
+}
+#banner #bannerBtn li{
+    position: absolute;
+    z-index: 20;
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    left: 0;
+    bottom: 20px;
+    right: 0;
+    margin: 0 auto;
+}
+#banner #bannerBtn .img1{
+    background: red;
+    right: 50px;
+    bottom: 20px;
+}
+#banner #bannerBtn .img3{
+    left: 50px;
+    bottom: 20px;
+}
+
+
+#myContent{
+    text-align: center;
+    /*background: #fff;*/
+}
+#myContent .title{
+    color: #000;
+    padding-top:60px ;
+    font-size: 25px;
+}
+#myContent #service{
+    background: #fff;
+}
+#myContent .sp{
+    padding-top: 12px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+#myContent .sp .lineSpan{
+    position: relative;
+    display: block;
+}
+#myContent .sp .lineSpan:before,.sp .lineSpan:after {
+    content: '';                 /*CSS伪类用法*/
+    position: absolute;         /*定位背景横线的位置*/
+    top:53%;
+    background: gainsboro;       /*宽和高做出来的背景横线*/
+    transition: 0.5s;
+    height: 1px;
+}
+#myContent .sp .lineSpan img{
+    width: 18px;
+}
+
+#myContent  .include{
+    padding-bottom: 20px;
+    color: #979797;
+    line-height: 24px;
+}
+
+#myContent #serviceInfo {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+#myContent #serviceInfo .serviceList li{
+    color: #494949;
+    margin: 30px 0.6%;
+    text-align: left;
+    overflow: hidden;
+    float: left;
+}
+#myContent #serviceInfo .serviceList li .ListImg{
+    width: 50px;
+    float: left;
+}
+#myContent #serviceInfo .serviceList li .ListText{
+    width: 80%;
+    padding-left: 10px;
+    float: left;
+}
+#myContent #serviceInfo .serviceList li .ListText .ListTitle{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+#myContent #serviceInfo .serviceList li .ListText .red_hover{
+    cursor: pointer;
+    font-size: 12px;
+    color: #979797;
+}
+#myContent #serviceInfo .serviceList li .ListText  .red_hover:hover{
+    animation:colorChange 0.5s ease both;
+}
+
+
+#myContent #department{
+    background:#f6f6f6;
+}
+#myContent .department .title{
+    color: #000;
+    padding-top: 0;
+}
+#myContent #department #design{
+    margin:0 auto;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+#myContent #department #design li{
+    width: 33%;
+    float: left;
+    font-size: 20px;
+    margin:10px 0;
+    overflow: hidden;
+}
+#myContent #department #design li img{
+    transform: scale(1.01,1.01);
+    display: block;
+    width: 100%;
+    float: left;
+    transition: 0.3s;
+    margin-bottom: 8px;
+}
+#myContent #department #design li .gray{
+    /*过滤掉成灰色*/
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    transform: scale(1.0,1.0);
+    transition: 0.3s;
+}
+
+#fill{
+    height:560px;
+    background: rgba(0,0,0,0.3);
+}
+#CEOTop{
+    background: #fff;
+    height:20px;
+}
+#myContent #CEOTop{
+    height: 20px;
+    background: #fff;
+}
+
+#myContent #CEO{
+    overflow: hidden;
+    width: 80%;
+    padding: 0 10%;
+    background: #f6f6f6;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#myContent #CEO #CEOImg{
+    float: left;
+    width: 30%;
+    margin-right: 40px;
+}
+#myContent #CEO #CEOImg img{
+    width: 100%;
+    vertical-align:middle;
+}
+#myContent #CEO #CEOText{
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+#myContent #CEO #CEOText .name{
+    letter-spacing:2px;
+}
+#myContent #CEO #CEOText .under{
+    text-decoration: line-through;
+}
+
+#myContent #CEO #CEOText .spSpan{
+    font-size: 14px;
+    word-wrap: break-word;
+    display: block;
+    line-height: 24px;
+    margin: 30px 0;
+    color: #979797;
+}
+
+
+#myContent #CEO .CEOMore{
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #888;
+    margin:0 auto;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.1s;
+    margin-top: 50px;
+}
+#myContent #CEO #CEOback_red:hover{
+    border: red 2px solid;
+    background: red;
+    color: #fff;
+}
+
+
